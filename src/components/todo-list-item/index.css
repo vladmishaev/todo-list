@@ -1,0 +1,23 @@
+.todo-list-item {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.todo-list-item.done {
+    text-decoration: line-through;
+}
+
+.todo-list-btn-important>svg>path:nth-child(2) {
+    opacity: 0;
+}
+
+.todo-list-important span {
+    color: brown;
+}
+
+.todo-list-important .todo-list-btn-important>svg>path:nth-child(2) {
+    opacity: 1;
+    color: brown;
+}

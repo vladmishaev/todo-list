@@ -1,0 +1,16 @@
+.todo-header-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.todo-header-div>h1 {
+    font-size: 60px;
+}
+
+.todo-header-div>div>p {
+    margin-bottom: 0;
+    height: min-content;
+    font-size: 35px;
+}

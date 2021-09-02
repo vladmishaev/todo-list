@@ -1,0 +1,36 @@
+.todo-list-ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todo-list-ul ul {
+    list-style: none;
+    padding-left: 0;
+    width: 85%;
+}
+
+.todo-list-ul ul>li {
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.todo-list-ul ul>li>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-list-ul ul>li button {
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+
+
+.todo-list-ul ul>li button:focus {
+    outline: none;
+}
+
+.todo-list-ul ul>li:not(:last-child) {
+    border-bottom: 1px solid;
+}
